@@ -1,0 +1,13 @@
+1) Descargamos el ultimo cliente oficial desde aquí (proviene del servidor oficial de Habbo):
+https://images.habbo.com/habbo-native-clients/osx/prod/air/207_e9a9d94cf336ce34518983f28a8070b0/HabboOSX.zip
+2) Descomprimimos el contenido del zip en alguna carpeta que les guste.
+Van a esa carpeta y verán que adentro se descomprimió una aplicación de nombre Habbo, probablemente no les deje abrirla de forma directa, en ese caso realizar el paso 3.
+3) Abrir una ventana de Terminal* e introducir el siguiente comando:
+"sudo spctl --master-disable" (sin comillas) y presionar Enter
+Al tratarse de un comando sudo (con elevación) es posible que requiera que introduzcan la clave de su Mac para confirmar la autorización.
+4) En la misma ventana de Terminal escriben "sudo xattr -r -d http://com.apple.quarantine " (sin presionar Enter y dejando el espacio al final)
+Arrastran la aplicación Habbo que descomprimieron hacia la ventana de la Terminal y presionan Enter.
+5) Ahora ya deberían poder abrir la aplicación Habbo que descomprimieron, los pasos anteriores ya no necesitan realizarlos de nuevo, al abrirla saldrá para iniciar sesión con codigo, lo obtienen desde la web de Habbo dandole al boton de Descargar y luego al boton verde de Copiar.
+
+*Tutorial de como abrir una ventana de Terminal:
+https://support.apple.com/es-es/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac
