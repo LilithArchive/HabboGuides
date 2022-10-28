@@ -5,7 +5,7 @@ Van a esa carpeta y verán que adentro se descomprimió una aplicación de nombr
 3) Abrir una ventana de Terminal* e introducir el siguiente comando:
 "sudo spctl --master-disable" (sin comillas) y presionar Enter
 Al tratarse de un comando sudo (con elevación) es posible que requiera que introduzcan la clave de su Mac para confirmar la autorización.
-4) En la misma ventana de Terminal escriben "sudo xattr -r -d http://com.apple.quarantine " (sin presionar Enter y dejando el espacio al final)
+4) En la misma ventana de Terminal escriben "sudo xattr -r -d com.apple.quarantine " (sin comillas, sin presionar Enter y dejando el espacio al final)
 Arrastran la aplicación Habbo que descomprimieron hacia la ventana de la Terminal y presionan Enter.
 5) Ahora ya deberían poder abrir la aplicación Habbo que descomprimieron, los pasos anteriores ya no necesitan realizarlos de nuevo, al abrirla saldrá para iniciar sesión con codigo, lo obtienen desde la web de Habbo dandole al boton de Descargar y luego al boton verde de Copiar.
 
